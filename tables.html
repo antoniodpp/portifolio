@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Primeira Tabela -->
+    <table border="1px" width="50%">
+        <tr>
+            <td align="center"><b>nome</b></td>
+            <td align="center"><b>codigo</b></td>
+            <td align="center"><b>qtd</b></td>
+            <td align="center"><b>valor</b></td>
+        </tr>
+        <tr>
+            <td>caneta</td>
+            <td>001</td>
+            <td>1</td>
+            <td>0,99</td>
+        </tr>
+        <tr>
+            <td>caderno</td>
+            <td>002</td>
+            <td>2</td>
+            <td>3,99</td>
+        </tr>
+    </table>
+    <br>
+
+    <!-- Segunda Tabela -->
+    <table border="1px" width="50%">
+        <tr>
+            <td colspan="6" align="center"><b>lista de clientes</b></td> <!-- "lista de clientes" ocupa toda a linha -->
+        </tr>
+        <tr>
+            <td align="center"><b>cod</b></td>
+            <td align="center"><b>nome</b></td>
+            <td align="center"><b>uf</b></td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td rowspan="2">xxx</td>
+            <td>RS</td> <!-- RS na primeira linha -->
+        </tr>
+        <tr>
+            <td>SC</td> <!-- SC na segunda linha -->
+        </tr>
+    </table>
+    
+    
+    <br>
+    
+    <!-- Tabela de Imagens -->
+    <table border="1px" width="50%">
+        <tr>
+            <td><img src="hamburger.jpg" width="60px" alt="Imagem 1"></td>
+            <td><img src="hamburger.jpg" width="60px" alt="Imagem 2"></td>
+        </tr>
+        <tr>
+            <td><img src="hamburger.jpg" width="60px" alt="Imagem 3"></td>
+            <td rowspan="2" align="center">
+                <!-- Tabela dentro da célula 4 -->
+                <table border="1px" width="100%">
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <br>
+</html>
